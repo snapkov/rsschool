@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+}
+
+.header { 
+    background-image: radial-gradient(#5B483A 0%, #262425 100%);
+}
+
+.wrapper { 
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header-container { 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.logo { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo__title { 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.logo__subtitle { 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.nav { 
+    width: 443px;
+}
+
+.nav__list { 
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav__item { }
+
+.nav__link { 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+.nav__link_active {
+    border-bottom: #F1CDB3 3px solid;
+}
+
+.main { }
+.main-container { }
+.section { }
+.hero { }
+.hero__title { }
+.hero__text { }
+.hero__button { }
+.about { }
+.about__image { }
+.about__text-block { }
+.about__title { }
+.about__text { }
+.pets { }
+.pets__title { }
+.pets__slider { }
+.pets__card { }
+.pets__image { }
+.pets__name { }
+.pets__button-more { }
+.pets__button { }
+.help { }
+.help__block { }
+.help__icon { }
+.help__title { }
+.donation { }
+.donation__image { }
+.donation__block { }
+.donation__title { }
+.donation__description { }
+.donation__card-block { }
+.donation__card-logo { }
+.donation__card-number { }
+.donation__legal-text { }
+.footer { }
+.footer-container { }
+.contacts { }
+.contacts__title { }
+.contacts__email-block { }
+.contacts__email-icon { }
+.contacts__email { }
+.contacts__phone-block { }
+.contacts__phone-icon { }
+.contacts__phone { }
+.address { }
+.address__title { }
+.address__address-block { }
+.address__address-icon { }
+.address__address-text { }
+.footer-image { }
