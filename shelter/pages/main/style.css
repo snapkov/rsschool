@@ -77,10 +77,67 @@ body {
 .main { }
 .main-container { }
 .section { }
-.hero { }
-.hero__title { }
-.hero__text { }
-.hero__button { }
+
+.hero { 
+    padding-top: 60px;
+    background-image: radial-gradient(#5B483A 0%, #262425 100%);
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero__block {
+    width: 502px;
+    padding-top: 163px;
+    padding-right: 42px;
+}
+
+.hero__title { 
+    width: 310px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.hero__text { 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+}
+
+.hero__button { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+}
+
+.hero__image {
+    width: 698px;
+    height: 728px;
+    background: url(/assets/images/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .about { }
 .about__image { }
 .about__text-block { }
