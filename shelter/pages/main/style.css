@@ -188,14 +188,122 @@ body {
     color: #4C4C4C;
 }
 
-.pets { }
-.pets__title { }
-.pets__slider { }
-.pets__card { }
-.pets__image { }
-.pets__name { }
-.pets__button-more { }
-.pets__button { }
+.pets { 
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #F6F6F6;
+}
+
+.pets__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pets__title { 
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets__slider { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 60px 0;
+}
+
+.pets__card { 
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.pets__image { 
+    width: 270px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pets__image_katrin {
+    background-image: url(/assets/images/pets-katrine.png);
+}
+
+.pets__image_jennifer {
+   background-image: url(/assets/images/pets-jennifer.png); 
+}
+
+.pets__image_woody {
+    background-image: url(/assets/images/pets-woody.png);
+}
+
+.pets__name { 
+    margin: 0 auto;
+    padding: 30px 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets__button-more { 
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.pets__button { 
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    width: 270px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
 .help { }
 .help__block { }
 .help__icon { }
