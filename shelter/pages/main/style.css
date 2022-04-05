@@ -408,17 +408,121 @@ body {
     background-image: url(/assets/icons/icon-sleeping-area.svg);
 }
 
-.help__icon-tittle { }
+.help__icon-tittle { 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
 
-.donation { }
-.donation__image { }
-.donation__block { }
-.donation__title { }
-.donation__description { }
-.donation__card-block { }
-.donation__card-logo { }
-.donation__card-number { }
-.donation__legal-text { }
+.donation { 
+    padding: 80px 0 100px;
+    background: #F6F6F6;
+}
+
+.donation__container {
+    height: 282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.donation__image { 
+    width: 505px;
+    height: 282px;
+    padding: 10px 0;
+    background-image: url(/assets/images/donation-dog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.donation__block { 
+    width: 380px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.donation__title { 
+    padding-right: 80px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__description { 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__card-block { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    width: 349px;
+    height: 43px;
+    background: #F1CDB3;
+    border-radius: 9px;
+}
+
+.donation__card-logo { 
+    width: 30px;
+    height: 23px;
+    background-image: url(/assets/icons/credit-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.donation__card-number { 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__legal-text { 
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+}
+
 .footer { }
 .footer-container { }
 .contacts { }
