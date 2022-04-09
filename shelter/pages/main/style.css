@@ -84,6 +84,7 @@ body {
 }
 
 .hero__container {
+    height: 728px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,11 +132,13 @@ body {
 }
 
 .hero__image {
-    width: 698px;
-    height: 728px;
+    max-width: 698px;
+    width: 100%;
+    height: auto;
     background: url(/assets/images/start-screen-puppy.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: bottom;
 }
 
 .about { 
@@ -215,12 +218,69 @@ body {
     color: #545454;
 }
 
-.pets__slider { 
+.pets__slider {
+    width: calc(1200px * 100vw / 1296);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 90px;
+    align-items: center;
+}
+
+.pets__cards { 
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 60px 0;
+}
+
+.pets__arrow_left {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    text-decoration: none;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: block;
+}
+
+.pets__arrow_left::after {
+    content:"\2191";
+    position: absolute;
+    left: 17px;
+    top: 21px;
+    width: 14px;
+    height: 6px;
+    display: block;
+    color: #292929;
+    font-weight: bold;
+    transform: translate(-7px, -3px) rotate(-90deg);
+}
+
+.pets__arrow_right {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    text-decoration: none;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: block;
+}
+
+.pets__arrow_right::after {
+    content:"\2191";
+    position: absolute;
+    left: 17px;
+    top: 21px;
+    width: 14px;
+    height: 6px;
+    display: block;
+    color: #292929;
+    font-weight: bold;
+    transform: translate(7px, 3px) rotate(90deg);
 }
 
 .pets__card { 
