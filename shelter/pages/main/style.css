@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
+    margin: 0;
 }
 
 .header { 
@@ -22,6 +27,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 .logo__title { 
@@ -56,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .nav__item { }
@@ -68,9 +78,14 @@ body {
     line-height: 160%;
     color: #CDCDCD;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 .nav__link_active {
+    border-bottom: #F1CDB3 3px solid;
+}
+
+.nav__link:hover {
     border-bottom: #F1CDB3 3px solid;
 }
 
@@ -98,6 +113,7 @@ body {
 
 .hero__title { 
     width: 310px;
+    margin: 0;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -106,10 +122,11 @@ body {
     display: flex;
     align-items: center;
     color: #FFFFFF;
-
 }
 
 .hero__text { 
+    margin: 0;
+    padding: 42px 0;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -154,12 +171,11 @@ body {
 }
 
 .about__image { 
-    width: 300px;
+    width: 100%;
     height: 408px;
     background: url(/assets/images/about-pets.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center left;
 }
 
 .about__text-block { 
@@ -167,9 +183,11 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 120px;
+    padding-top: 11px;
 }
 
 .about__title { 
+    width: 370px;
     padding-right: 60px;
     font-family: 'Georgia';
     font-style: normal;
@@ -183,6 +201,8 @@ body {
 }
 
 .about__text { 
+    margin: 0;
+    padding-top: 25px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
